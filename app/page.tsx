@@ -1,10 +1,21 @@
-import Image from "next/image";
+import Header from "@/components/Header";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Experience from "@/components/Experience";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <h1 className="text-3xl font-bold text-red-500 dark:text-white">Home</h1>
-      <p className="text-lg text-zinc-600 dark:text-zinc-400">Welcome to my app!</p>
-    </div>
+    <main className="min-h-screen bg-background text-white selection:bg-primary selection:text-white">
+      <Header />
+      <Hero />
+      <About />
+      <Skills />
+      <Experience />
+      <Projects />
+      <Contact />
+    </main>
   );
 }
