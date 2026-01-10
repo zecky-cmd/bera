@@ -14,3 +14,23 @@ The following commands were used to set up the project:
 npm install
 npm run dev
 ```
+
+## Portfolio & Supabase Integration
+The following commands were used to install UI libraries and configure Supabase:
+
+```bash
+# UI Libraries (Framer Motion, Lucide, Tailwind Merge)
+npm install framer-motion lucide-react clsx tailwind-merge
+
+# Supabase Client & SSR
+npm install @supabase/supabase-js @supabase/ssr
+
+# Create components directory
+mkdir components
+
+# Create local env file
+echo > .env.local
+
+# Git Commit
+git commit -m "conception de mon portfolio"
+```

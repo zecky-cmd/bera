@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio - Ezechiel YAO
 
-## Getting Started
+Portfolio personnel moderne et dynamique, conçu pour présenter mes compétences en développement web et analyse de données.
 
-First, run the development server:
+![Aperçu](https://placehold.co/1200x600/1e293b/ffffff?text=Portfolio+Preview)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Technologies
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*   **Frontend** : [Next.js 15](https://nextjs.org/) (App Router), [React 19](https://react.dev/)
+*   **Styling** : [Tailwind CSS v4](https://tailwindcss.com/)
+*   **Animations** : [Framer Motion](https://www.framer.com/motion/)
+*   **Icônes** : [Lucide React](https://lucide.dev/)
+*   **Backend** : [Supabase](https://supabase.com/) (Base de données & Auth)
+*   **Langage** : TypeScript
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Cloner le projet**
+    ```bash
+    git clone https://github.com/votre-user/bera.git
+    cd bera
+    ```
 
-## Learn More
+2.  **Installer les dépendances**
+    ```bash
+    npm install
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  **Configurer les variables d'environnement**
+    Renommez `.env.local.example` en `.env.local` (ou créez-le) et ajoutez vos clés Supabase :
+    ```bash
+    NEXT_PUBLIC_SUPABASE_URL=votre_url_supabase
+    NEXT_PUBLIC_SUPABASE_ANON_KEY=votre_clé_anon
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4.  **Lancer le serveur de développement**
+    ```bash
+    npm run dev
+    ```
+    Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📂 Structure du Projet
 
-## Deploy on Vercel
+*   `app/` : Pages et layout (App Router).
+*   `components/` : Composants Réutilisables (Header, Hero, About, etc.).
+*   `utils/` : Utilitaires (Client Supabase).
+*   `public/` : Assets statiques.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ✨ Fonctionnalités
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*   **Design Responsive** : Adapté aux mobiles, tablettes et desktops.
+*   **Animations** : Apparitions fluides et interactions au scroll.
+*   **Formulaire de Contact** : Relié à Supabase pour la réception des messages.
+*   **Mode Sombre** : Design dark premium par défaut.
+
+## 📝 Licence
+
+Ce projet est sous licence MIT.
