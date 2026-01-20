@@ -2,6 +2,7 @@
 
 @theme {
   --color-background: var(--background);
+  --color-background2: var(--background2);
   --color-foreground: var(--foreground);
   --color-primary: var(--primary);
   --color-surface: var(--surface);
@@ -12,6 +13,7 @@
 :root {
   /* Dark Mode Default */
   --background: #0F1624;
+  --background2: #F8FAFC;
   --foreground: #ffffff;
   --primary: #FCA311;
   --surface: #1E2532;
@@ -20,5 +22,7 @@
 body {
   background-color: var(--background);
   color: var(--foreground);
-}
+  /* font-family: var(--font-sans); */
+  padding: 30px !important;
 
+}

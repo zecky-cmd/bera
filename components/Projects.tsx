@@ -4,37 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
-
-// Données statiques pour l'instant (à remplacer par Supabase plus tard)
-const projects = [
-    {
-        id: 1,
-        title: "Portfolio Personnel",
-        description: "Mon site personnel présentant mes projets et compétences. Design moderne et animations fluides.",
-        tags: ["Next.js", "Tailwind CSS", "Framer Motion"],
-        image: "https://placehold.co/600x400/1e293b/ffffff?text=Portfolio",
-        demoUrl: "#",
-        githubUrl: "#",
-    },
-    {
-        id: 2,
-        title: "Application E-commerce",
-        description: "Une plateforme de vente en ligne complète avec panier, paiement Stripe et dashboard admin.",
-        tags: ["React", "Node.js", "MongoDB", "Stripe"],
-        image: "https://placehold.co/600x400/0f172a/ffffff?text=E-commerce",
-        demoUrl: "#",
-        githubUrl: "#",
-    },
-    {
-        id: 3,
-        title: "Dashboard Analytics",
-        description: "Tableau de bord pour visualiser des données en temps réel avec des graphiques interactifs.",
-        tags: ["Vue.js", "Chart.js", "Firebase"],
-        image: "https://placehold.co/600x400/334155/ffffff?text=Dashboard",
-        demoUrl: "#",
-        githubUrl: "#",
-    }
-];
+import { projects } from "@/lib/data/projets";
 
 export default function Projects() {
     return (
@@ -69,6 +39,10 @@ export default function Projects() {
                                     fill
                                     className="object-cover transition-transform duration-500 group-hover:scale-110"
                                 />
+                                {/* <p className="absolute top-2 left-2 text-white">projet web</p> */}
+                                <div className="absolute top-2 left-2 bg-primary rounded-full p-1">
+                                    <p className="text-[10px] text-foreground">projet mobile</p>
+                                </div>
                                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
                                     <a
                                         href={project.demoUrl}
