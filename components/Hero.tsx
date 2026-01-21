@@ -5,7 +5,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 
-export default function Hero() {
+export default function Hero({ avatarUrl }: { avatarUrl?: string | null }) {
     return (
         <section
             id="hero"
@@ -15,7 +15,7 @@ export default function Hero() {
             <div className="absolute top-0 right-0 w-1/3 h-full bg-primary/5 blur-3xl rounded-full -translate-y-1/4 translate-x-1/4 pointer-events-none" />
             <div className="absolute bottom-0 left-0 w-1/4 h-1/2 bg-blue-900/10 blur-3xl rounded-full translate-y-1/4 -translate-x-1/4 pointer-events-none" />
 
-            <div className="container mx-auto px-6 grid md:grid-cols-2 gap-12 items-center relative z-10">
+            <div className="container mx-auto px-6 flex flex-col-reverse md:grid md:grid-cols-2 gap-12 items-center relative z-10">
                 {/* Text Content */}
                 <motion.div
                     initial={{ opacity: 0, x: -50 }}
@@ -26,7 +26,7 @@ export default function Hero() {
                         Bonjour, je suis
                     </h2>
                     <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 leading-tight">
-                        Ezchiel <span className="text-primary">YAO</span>
+                        Ezechiel <span className="text-primary">YAO</span>
                     </h1>
                     <h3 className="text-2xl md:text-3xl text-gray-300 mb-6 font-light">
                         Développeur Web & <span className="text-blue-400">Data Analyst</span>
@@ -51,9 +51,9 @@ export default function Hero() {
                     </div>
 
                     <div className="flex gap-6 mt-10">
-                        <SocialLink href="#" icon={<Github size={24} />} />
+                        <SocialLink href="https://github.com/zecky-cmd" icon={<Github size={24} />} />
                         <SocialLink href="#" icon={<Linkedin size={24} />} />
-                        <SocialLink href="mailto:contact@example.com" icon={<Mail size={24} />} />
+                        <SocialLink href="mailto:yaoezchiel@gmail.com" icon={<Mail size={24} />} />
                     </div>
                 </motion.div>
 
@@ -70,7 +70,7 @@ export default function Hero() {
                         <div className="absolute inset-0 rounded-full overflow-hidden border-4 border-surface shadow-2xl bg-surface">
                             {/* Replace src with your actual image path */}
                             <Image
-                                src="https://placehold.co/400x400/1e293b/ffffff?text=Ezechiel"
+                                src={avatarUrl || "https://placehold.co/400x400/1e293b/ffffff?text=Ezechiel"}
                                 alt="Ezchiel YAO"
                                 fill
                                 className="object-cover"

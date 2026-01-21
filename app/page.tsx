@@ -7,17 +7,25 @@ import Experience from "@/components/Experience";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+import { createClient } from "@/utils/supabase/server";
+
+export default async function Home() {
+  const supabase = await createClient();
+  const { data: personalInfo } = await supabase
+    .from("personal_info")
+    .select("avatar_url")
+    .single();
+
   return (
     <main className="min-h-screen bg-background text-white selection:bg-primary selection:text-white">
       <Header />
-      <Hero />
+      <Hero avatarUrl={personalInfo?.avatar_url} />
       <About />
       <Skills />
       <Experience />
       <Projects />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }
