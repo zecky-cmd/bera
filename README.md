@@ -17,21 +17,21 @@ Portfolio personnel moderne et dynamique, conçu pour présenter mes compétence
 
 1.  **Cloner le projet**
     ```bash
-    git clone https://github.com/votre-user/bera.git
+    git clone https://github.com/zecky-cmd/bera.git
     cd bera
     ```
 
 2.  **Installer les dépendances**
     ```bash
-    npm install
+    npm installgit 
     ```
 
 3.  **Configurer les variables d'environnement**
-    Renommez `.env.local.example` en `.env.local` (ou créez-le) et ajoutez vos clés Supabase :
+    <!-- Renommez `.env.local.example` en `.env.local` (ou créez-le) et ajoutez vos clés Supabase :
     ```bash
     NEXT_PUBLIC_SUPABASE_URL=votre_url_supabase
     NEXT_PUBLIC_SUPABASE_ANON_KEY=votre_clé_anon
-    ```
+    ``` -->
 
 4.  **Lancer le serveur de développement**
     ```bash
