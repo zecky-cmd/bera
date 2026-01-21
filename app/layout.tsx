@@ -11,6 +11,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Ezechiel YAO - Portfolio",
   description: "Portfolio Développeur & Data Analyst",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
