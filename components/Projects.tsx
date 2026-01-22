@@ -41,7 +41,7 @@ export default function Projects() {
                                 />
                                 {/* <p className="absolute top-2 left-2 text-white">projet web</p> */}
                                 <div className="absolute top-2 left-2 bg-primary rounded-full p-1">
-                                    <p className="text-[10px] text-foreground">projet mobile</p>
+                                    {/* <p className="text-[10px] text-foreground">projet mobile</p> */}
                                 </div>
                                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
                                     <a
