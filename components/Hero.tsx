@@ -52,7 +52,7 @@ export default function Hero({ avatarUrl }: { avatarUrl?: string | null }) {
 
                     <div className="flex gap-6 mt-10">
                         <SocialLink href="https://github.com/zecky-cmd" icon={<Github size={24} />} />
-                        <SocialLink href="#" icon={<Linkedin size={24} />} />
+                        <SocialLink href="https://www.linkedin.com/in/ezechiel-yao-454a003aa/" icon={<Linkedin size={24} />} />
                         <SocialLink href="mailto:yaoezchiel@gmail.com" icon={<Mail size={24} />} />
                     </div>
                 </motion.div>
