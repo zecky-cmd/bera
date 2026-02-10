@@ -7,24 +7,24 @@ import { Briefcase } from "lucide-react";
 const experiences = [
     {
         id: 1,
-        role: "Développeur Fullstack",
-        company: "Freelance",
-        period: "2023 - Présent",
-        description: "Conception et développement d'applications web sur mesure pour des clients internationaux. Stack: Next.js, Node.js, Supabase.",
+        role: "Développeur Fullstack junior",
+        company: "Trabad Immobilier",
+        period: "2025",
+        description: "Conception et développement d'applications web sur mesure pour Trabad Immobilier. Stack: Next.js, Node.js, Supabase.",
     },
     {
         id: 2,
         role: "Stage Développeur Web",
-        company: "Tech Solutions",
-        period: "2022 - 2023",
+        company: "C-inov",
+        period: "2024 - 2025",
         description: "Participation au développement d'une plateforme SaaS. Implémentation de nouvelles fonctionnalités et correction de bugs.",
     },
     {
         id: 3,
-        role: "Assistant Informatique",
-        company: "Université Abidjan",
-        period: "2021 - 2022",
-        description: "Maintenance du parc informatique et assistance aux utilisateurs. Gestion des réseaux locaux.",
+        role: "Formation Développeur Front-end",
+        company: "bootcamp",
+        period: "2024 - 2025",
+        description: "Un parcours sur mesure pour devenir Développeur Front-end",
     }
 ];
 

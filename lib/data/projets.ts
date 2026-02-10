@@ -23,7 +23,7 @@ export const projects = [
     {
         id: 3,
         title: "Pointage Trabad",
-        description: "Système de pointage et de gestion des absences.",
+        description: "Conception et développement d'une application web de gestion du pointage du personnel (Next.js, React, TypeScript, Supabase), déployée sur Vercel et utilisée quotidiennement par l'ensemble des employés.",
         tags: ["Next.js", "Tailwind CSS", "Supabase", "Vercel"],
         image: "https://placehold.co/600x400/1e293b/ffffff?text=Pointage",
         demoUrl: "#",
