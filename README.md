@@ -1,8 +1,7 @@
 # Portfolio - Ezechiel YAO
 
-Portfolio personnel moderne et dynamique, conçu pour présenter mes compétences en développement web et analyse de données.
+Portfolio personnel moderne et dynamique, conçu pour présenter mes compétences en développement web 
 
-![Aperçu](https://placehold.co/1200x600/1e293b/ffffff?text=Portfolio+Preview)
 
 ## Technologies
 
@@ -10,7 +9,7 @@ Portfolio personnel moderne et dynamique, conçu pour présenter mes compétence
 *   **Styling** : [Tailwind CSS v4](https://tailwindcss.com/)
 *   **Animations** : [Framer Motion v12](https://www.framer.com/motion/)
 *   **Icônes** : [Lucide React](https://lucide.dev/)
-*   **Backend** : [Supabase](https://supabase.com/) (Base de données & Auth)
+*   **Backend** : [Supabase](https://supabase.com/) 
 *   **Langage** : TypeScript
 
 ## Installation
