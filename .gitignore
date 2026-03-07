@@ -11,7 +11,7 @@
 !.yarn/versions
 
 #sql
-/lib/sql
+lib/sql
 
 # testing
 /coverage
