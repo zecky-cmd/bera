@@ -29,7 +29,7 @@ export default function Hero({ avatarUrl }: { avatarUrl?: string | null }) {
                         Ezechiel <span className="text-primary">YAO</span>
                     </h1>
                     <h3 className="text-2xl md:text-3xl text-gray-300 mb-6 font-light">
-                        Développeur Web & <span className="text-blue-400">Data Analyst</span>
+                        Développeur Web & <span className="text-blue-400">Full-stack JS/TS</span>
                     </h3>
                     <p className="text-gray-400 max-w-lg mb-8 text-lg leading-relaxed">
                         Je conçois des solutions performantes et esthétiques. Passionné par le code propre et les interfaces utilisateur intuitives.

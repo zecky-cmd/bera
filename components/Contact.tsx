@@ -79,7 +79,7 @@ export default function Contact() {
                     >
                         <h3 className="text-2xl font-bold text-white mb-6">Informations de contact</h3>
                         <p className="text-gray-400 mb-8">
-                            Je suis actuellement disponible pour des missions freelance ou des opportunités en CDI. N'hésitez pas à me contacter.
+                            Je suis actuellement disponible pour des missions freelance ou des opportunités en CDD/CDI. N'hésitez pas à me contacter.
                         </p>
 
                         <div className="flex items-center gap-4">
