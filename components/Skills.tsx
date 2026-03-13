@@ -28,8 +28,9 @@ const skillsData = [
         icon: <Database className="w-8 h-8 text-green-400" />,
         items: [
             { name: "Node.js", level: 80 },
-            { name: "Express.js", level: 80 },
-            { name: "Django", level: 65},
+            { name: "nestJS", level: 80 },
+            { name: "Express.js", level: 70 },
+            { name: "Django", level: 50},
             { name: "Supabase / Firebase", level: 85 },
             { name: "PostgreSQL", level: 75 },
         ],
@@ -39,6 +40,7 @@ const skillsData = [
         icon: <Terminal className="w-8 h-8 text-purple-400" />,
         items: [
             { name: "Git / GitHub", level: 90 },
+            { name: "Vercel", level: 75 },
             { name: "Docker", level: 60 },
         ]
     }
