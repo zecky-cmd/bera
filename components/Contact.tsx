@@ -78,9 +78,9 @@ export default function Contact() {
                         className="space-y-8"
                     >
                         <h3 className="text-2xl font-bold text-white mb-6">Informations de contact</h3>
-                        <p className="text-gray-400 mb-8">
+                        {/* <p className="text-gray-400 mb-8">
                             Je suis actuellement disponible pour des missions freelance ou des opportunités en CDD/CDI. N'hésitez pas à me contacter.
-                        </p>
+                        </p> */}
 
                         <div className="flex items-center gap-4">
                             <div className="w-12 h-12 bg-surface rounded-full flex items-center justify-center text-primary">
@@ -98,7 +98,7 @@ export default function Contact() {
                             </div>
                             <div>
                                 <p className="text-gray-400 text-sm">Email</p>
-                                <p className="text-white font-medium">yaoezchiel@gmail.com</p>
+                                <p className="text-white font-medium">ezechielcodeur@gmail.com</p>
                             </div>
                         </div>
 
